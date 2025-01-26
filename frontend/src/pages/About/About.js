@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Home() {
+function About() {
   return (
-    <div className="home">
+    <div className="about">
       <section className="profile">
         <div className="profile-photo">
-          <img src="/path-to-your-photo.jpg" alt="Jay Kim" />
+          {/* <img src="/uploads/home/jaykim.png" alt="Jay Kim" /> */}
         </div>
         
         <div className="intro">
@@ -44,20 +44,10 @@ function Home() {
           <button type="submit">Send Message</button>
         </form>
 
-        <div className="social-links">
-          <a href="mailto:yeonjae.kim.jay@gmail.com">
-            <i className="email-icon"></i>
-          </a>
-          <a href="https://github.com/yeonkim1213">
-            <i className="github-icon"></i>
-          </a>
-          <a href="https://linkedin.com/in/ye0njaekim">
-            <i className="linkedin-icon"></i>
-          </a>
-        </div>
+        
       </section>
     </div>
   );
 }
 
-export default Home;
+export default About;
